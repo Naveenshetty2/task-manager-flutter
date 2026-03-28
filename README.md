@@ -1,17 +1,36 @@
-# my_app
+# Task Manager App (Flutter)
 
-A new Flutter project.
+## 📌 Overview
+A Task Management mobile app built using Flutter with local storage.
 
-## Getting Started
+## 🚀 Features
+- Create, Edit, Delete Tasks (CRUD)
+- Search tasks by title
+- Filter by status (To-Do, In Progress, Done)
+- Blocked Task Dependency
+- Priority & Overdue Highlight
+- Persistent data using Hive
 
-This project is a starting point for a Flutter application.
+## 🛠 Tech Stack
+- Flutter (Dart)
+- Hive (Local Database)
 
-A few resources to get you started if this is your first Flutter project:
+## ▶️ How to Run
+1. Clone the repo
+2. Run:
+   flutter pub get
+   flutter run
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 📂 Project Structure
+- main.dart → UI & logics
+- Hive → Local storage
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎯 Track Chosen
+Track B – Mobile Specialist
+
+## ⭐ Stretch Feature
+- Priority / Overdue highlight
+
+## 🤖 AI Usage
+- Used ChatGPT for UI improvements and debugging
+- Fixed syntax and logic issues manually
